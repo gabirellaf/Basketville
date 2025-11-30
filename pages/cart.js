@@ -1,8 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import '../styles/base.css'
-import '../styles/layout.css'
-import '../styles/components.css'
 
 export default function Cart() {
   return (
