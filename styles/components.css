@@ -1,0 +1,21 @@
+/* Fade-in animation for scroll */
+.home-fade {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.home-fade.show {
+  opacity: 1;
+  transform: none;
+}
+
+/* Basic fade used for slides */
+.fade {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
